@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*------------------------------------*\
+	Reset
+\*------------------------------------*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;background:transparent}
+body{font-size:16px;font-family:'Apple SD Gothic Neo','Apple Gothic', '굴림', gulim, '돋움', dotum;color:#474747}
+ul{list-style-type:none}
+a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}
+table{table-layout:fixed;border-collapse:collapse;border-spacing:0;empty-cells:show}
+input,select{margin:0;padding:0;vertical-align:middle}
+button{margin:0;padding:0;border:0;background:transparent;cursor:pointer;font:inherit}
+img{max-width:100%;display: block;}
+body{-moz-text-size-adjust:none;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;}
+.a11y-hidden{overflow:hidden;clip:rect(1px, 1px, 1px, 1px);position:absolute;width:1px;height:1px}
+
+/* common */
+body{
+	max-width: 640px;
+	margin: 0 auto;
+	background-color: #1f293f;
+}
+section a{
+	display: block;
+	max-height: 220px;
+}
+
+/* header */
+header{
+	margin: 0 auto
+}
+
+/* footer */
+footer .answer-pooq{
+	padding: 14.0625% 0 15%;
+	position: relative;}
+footer .answer-pooq .ggoggo{
+	position: absolute;
+	max-width:98px;
+	width: 15.3125%;
+	bottom: -1.5%;
+	left: 10.46875%
+}
+footer .pooq-payment{padding: 0 0 14.0625%}
+footer .pooq-payment a{
+	display: block;
+	width: 81.25%;
+	margin: 0 auto;
+}
